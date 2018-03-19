@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+	  <title>Capstone</title>
+	  <meta charset = "UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+	  <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:700,700i|Merriweather:300,300i,400,400i" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function(){
+	  // Add smooth scrolling to all links
+	  $("a").on('click', function(event) {
+
+	    if (this.hash !== "") {
+	      // Prevent default anchor click behavior
+	      event.preventDefault();
+
+	      // Store hash
+	      var hash = this.hash;
+
+	      $('html, body').animate({
+	        scrollTop: $(hash).offset().top
+	      }, 900, function(){
+	   
+	        // Add hash (#) to URL when done scrolling (default click behavior)
+	        window.location.hash = hash;
+	      });
+	    } // End if
+	  });
+	});
+	</script>
+	</head>
+
+	<body>
+
+		<div class="introduction">
+			<h1> ART STL</h1>
+			<p> Putting local arts and culture right in your hands </br>through curated tours of public art </br>in the St. Louis area. </p>
+
+			<div class="button"> <a href="#tour_container">View Tours</a> </div>
+
+		</div>
+
+
+		<div id ="tour_container">
+			<div class="tour tour_one">
+				<a href="tour_one.html">
+					<img src="img/tour_one/treemonisha_detail.png" class="display_image">
+				</a>
+			</div>
+
+			<div class="tour tour_two">
+				<a href="tour_two.html">
+					<img src="img/tour_two/cowgirl_jungle_detail.png" class="display_image">
+				</a>
+			</div>
+
+			<div class="tour tour_three">
+				<a href="tour_two.html">
+					<img src="img/tour_three/gulliver_detail.png" class="display_image">
+				</a>
+			</div>
+	 	</div>
+
+	</body>
+</html>
