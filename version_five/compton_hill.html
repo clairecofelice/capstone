@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+	  <title>(Don't) Look Up</title>
+	  <meta charset = "UTF-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1"/> 
+	  <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,700,700i" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	  <link rel="stylesheet" type="text/css" href="css/component.css">
+	  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	  <link rel="stylesheet" type="text/css" href="css/tour_styles.css">
+	</head>
+
+	<body>
+		<a href="tour_one.html" class="exit"><img src="icons/exit_icon_white.png" class="exit_icon"></i></a>
+		<div class="directions_button" onclick="document.getElementById('modal1').style.display='block'">Directions</a></div>
+		<iframe src="file:///Users/clairecofelice/Documents/GitHub/capstone/practice-maps/comtonhill-map.html" class="iso_map"></iframe>
+	
+		<div id="modal1" class="modal animate-opacity" onclick="document.getElementById('modal1').style.display='none'">
+	    	<div class="modal-content">
+				<a href="https://www.google.com/maps/dir/?api=1&destination=Compton+Hill+Water+Tower"> Open in Google Maps </a>
+	  	 	</div>
+	  	</div>
+	</div>
+
+		<div class="body_text">
+			<h2>Harvey Ellis</h2>
+			<h1>Compton Hill </br> Water Tower</h1>
+
+			<div class="locations">
+
+			<p class="welcome_text animation-element fadeIn"> Welcome to the Compton Hill Water Tower, the newest of St. Louis' three towers. </p>
+		   	</div>
+		   		<div class="grey_box">
+		   			<div class="locations">
+						<p class="instruction_number animation-element slide-left">00</p>
+			   				<p class="tour_text lInstruction animation-element slide-left">Quick Facts</p>
+			   				<div class="quick_facts">
+								<p class="tour_text bodyText animation-element bounce-up"> <i class="fas fa-caret-right"></i> 179' tall</p>
+								<p class="tour_text bodyText animation-element bounce-up"> <i class="fas fa-caret-right"></i> Completed in 1898</p>
+								<p class="tour_text bodyText animation-element bounce-up"> <i class="fas fa-caret-right"></i> Made from limestone, brick, and terra cotta</p>
+						</div>
+					</div>
+				</div>
+
+			<div class="locations">
+		   		<p class="instruction_number animation-element slide-left">01</p>
+		   		<div class="instruction_container">
+		   			<p class="tour_text lInstruction animation-element slide-left">Before you enter,</p>
+					<p class="tour_text rInstruction animation-element slide-right">walk around the tower.</p>
+					
+					<p class="get_more_info" onclick="moreInfo()"> Got it! <i class="fas fa-caret-down"></i> </p>
+
+					<div class="info_drawer" id="moreInfo" style="display: none;">
+						<p class="tour_text bodyText animation-element bounce-up"> Built on the 36 acre Reservoir Park, it was completed in 1898 after a design by Harvey Ellis at a cost of $48,000. </p>
+
+						<img src="img/tour_one/water_construction.jpg" class="img1">
+						<p class="caption_text" id="caption1"> The tower under scaffolding during construction, 1898.</p>
+
+
+					</div>				
+				</div>
+			</div>
+
+			<div class="locations">
+				<p class="instruction_number animation-element slide-left">02</p>
+				<div class="instruction_container">
+		   			<p class="tour_text lInstruction animation-element slide-left">Approach the walls</p>
+					<p class="tour_text rInstruction animation-element slide-right">and notice their texture.</p>
+
+					<p class="get_more_info" onclick="moreInfo2()"> Got it! <i class="fas fa-caret-down"></i> </p>
+
+					<p class="tour_text bodyText animation-element bounce-up" id="moreInfo2" style="display: none;"> The 179-foot tower is made of rusticated limestone, buff-colored brick and terra cotta. Its walls are adorned with carvings of mythical animals and leaf patterns. </p>
+				</div>
+			</div>
+
+			<div class="locations">
+				<p class="instruction_number animation-element slide-left">03</p>
+				<div class="instruction_container">
+		   			<p class="tour_text lInstruction animation-element slide-left">When you're ready,</p>
+					<p class="tour_text rInstruction animation-element slide-right">make your way inside.</p>
+					<p class="tour_text bodyText animation-element bounce-up"> Inside, spiral steps take visitors to the top of the tower where an observation deck under a bell-shaped roof of terra cotta tiles offers a 360-degree view of the City of St. Louis. </p>
+				</div>
+			</div>
+
+			<div class="locations">
+				<p class="instruction_number animation-element slide-left">04</p>
+				<div class="instruction_container">
+		   			<p class="tour_text lInstruction animation-element slide-left">Take your time</p>
+					<p class="tour_text rInstruction animation-element slide-right">as you walk up the stairs.</p>
+					<p class="tour_text bodyText animation-element bounce-up"> Inside, spiral steps take visitors to the top of the tower where an observation deck under a bell-shaped roof of terra cotta tiles offers a 360-degree view of the City of St. Louis. </p>
+				</div>
+			</div>
+
+			<p class="next_header"> Next Up </p>
+
+
+		<div class="next">
+			<p class = "next_display_text"> Footnote </p>
+			<img src="img/tour_one/slider_img/footnote.jpg" class="next_prev">
+		</div>
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="scripts/scripts.js"></script>
+
+	</body>
+</html>
