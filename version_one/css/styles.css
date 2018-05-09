@@ -1,0 +1,256 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	max-width: 414px;
+	background-color: white;
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h2 {
+	font-size: 14px;
+	display: inline-flex;
+	text-transform: uppercase;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 10px;
+	color: grey;
+}
+
+p {
+	font-size: 10px;
+	font-weight: 100;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+	vertical-align: center;
+	padding-top: 10px;
+}
+
+.button {
+	z-index: 100;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+
+	position: fixed;
+	height: 30px;
+	width: 300px;
+
+	margin-left: 50px;
+	bottom: 20px;
+	background-color: #778899;
+	color: white;
+}
+
+iframe {
+	width: 400px;
+	margin-top: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.map {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.introduction {
+	text-align: center;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.tour {
+	width: 360px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.tour_overview {
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 30px;
+	margin-right: 60px;
+}
+
+.display_image {
+	width: 360px;
+	height: 233px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.main_container {
+    height:200px;
+    width:100%;
+    overflow:hidden;
+}
+
+.image_container {
+	width: 1000%;
+	clear: both;
+}
+
+.slider_image {
+	width: 300px;
+	height: 200px;
+	margin-right: 15px;
+	display: inline;
+}
+
+#slides {
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  font-size: 0;
+  transform: translateX(0);
+}
+
+.display_text {
+	width: 360px;
+	text-align: left;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.tour_text {
+	width: 240px;
+	margin-left: 50px;	
+	margin-top: -10;
+	opacity: 0;
+	animation: fadein 5s linear;
+	animation-fill-mode: forwards;  
+}
+
+.bold {
+	font-weight: 700;
+	margin-top: 15px;
+}
+
+.locations {
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#location_text {
+	display: none;
+}
+
+#location_text2 {
+	display: none;
+}
+
+@keyframes complete {
+    from { height: auto; }
+    to { height: 0; }
+}
+
+.tour_one_complete {
+	animation: complete 5s linear;
+	animation-delay: 36s;
+	overflow: hidden;
+	animation-fill-mode: forwards;  
+}
+
+.circle1 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+.circle2 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+.circle3 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+.circle4 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+.circle5 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+.circle6 {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: white;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}
+
+.circle_selected {
+	width: 10px;
+	height: 10px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2.5px;
+	background-color: black;
+	border-radius: 50%;
+	margin-right: 30px;
+	display: inline-flex;
+}

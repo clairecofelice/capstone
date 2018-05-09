@@ -1,0 +1,190 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #4D5656;
+	max-width: 375px;
+	background-color: #F8F9F9;
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 300px;
+}
+
+h2 {
+	font-size: 28px;
+	display: inline-flex;
+}
+
+h3 {
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 60px;
+	text-align: center;
+}
+
+h6 {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+p {
+	font-size: 13px;
+	line-height: 20px;
+	font-weight: 100;
+}
+
+a {
+	font-size: 18px;
+	text-decoration: none;
+	vertical-align: center;
+	padding-top: 10px;
+	color: #4D5656;
+}
+
+.caption_text {
+	font-size: 10px;
+	font-weight: 100;
+	line-height: 12px;
+}
+
+.pin {
+	margin-right: 8px;
+}
+
+.button {
+	z-index: 100;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+	position: fixed;
+	height: 30px;
+	width: 300px;
+
+	margin-left: 50px;
+	bottom: 20px;
+	color: white;
+}
+
+iframe {
+	width: 375px;
+	margin-top: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.introduction {
+	text-align: center;
+	width: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 350px;
+}
+
+.tour {
+	width: 360px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.tour_overview {
+	width: 300px;
+	margin-left: 30px;
+	margin-right: 60px;
+}
+
+.display_image {
+	width: 360px;
+	height: 233px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slider_image {
+	width: 300px;
+	height: 200px;
+}
+
+.start_tour {
+	width: 280px;
+	height: 200px;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: auto;
+}
+
+.display_text {
+	width: 360px;
+	text-align: left;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.navbar {
+	display: none;
+	height: 400px;
+	float: left;
+	width: 30px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+
+.bold {
+	font-weight: 400;
+	margin-top: 15px;
+}
+
+.locations {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.tour_text {
+	width: 300px;
+}
+
+.complete {
+	margin-top: 10px;
+}
+
+.complete_tour {
+	width: 200px;
+	height: 20px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 80px;
+	margin-right: auto; 
+	margin-bottom: 80px;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #4D5656;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
